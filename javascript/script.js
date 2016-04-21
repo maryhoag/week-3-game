@@ -90,11 +90,11 @@ $(document).ready(function() {
                         $("#game").html(hiddenWord);
                         ansArray.splice(ans, 1);
                         boolie = true;
-                    }
-                        if (ansArray.length === 0) {
-                            win();
-                            break;
                         }
+                    }
+                    if (ansArray.length === 0) {
+                        win();
+                    }
                         //add wrong pick to used letters array and refresh onscreen
                     if(boolie == false) {
                         guesses.push(userPick);
@@ -106,5 +106,4 @@ $(document).ready(function() {
                     }
             };
         //}
-    }
-});
+})
