@@ -2,7 +2,7 @@
 
 /* background link to assets/dark_embroidery.png from subtlepatterns.com */
 body {
-	background: url(assets/images/dark_embroidery.png);
+	background: url(../assets/images/dark_embroidery.png);
 	color: #e5f4f9;
 	text-align: center;
 }
