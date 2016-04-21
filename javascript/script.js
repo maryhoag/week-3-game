@@ -75,13 +75,16 @@ $(document).ready(function() {
         game();
 
         //user input
-        while (guessesRemaining < 0) {
+        //while (guessesRemaining < 0) {
             document.onkeyup = function(event) {
 
                 userPick = String.fromCharCode(event.keyCode).toLowerCase();
 
                 //compare array
                 for (var j = 0; j <= len; j++) {
+                    document.onkeyup = function(event) {
+                    userPick = String.fromCharCode(event.keyCode).toLowerCase();
+                    
                     if (ans[j] == userPick) {
                         //replace underscore with correct letter
                         correct();
@@ -95,6 +98,6 @@ $(document).ready(function() {
                     }
                 }
             };
-        }
+        //}
 
 });
