@@ -1,0 +1,61 @@
+/*add google font*/
+
+/* background link to assets/dark_embroidery.png from subtlepatterns.com */
+body {
+	background: url(assets/images/dark_embroidery.png);
+	color: #e5f4f9;
+	text-align: center;
+}
+
+.h1 {
+	font-family: 'Tangerine', cursive;
+	font-size: 650%;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #19a3d1;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+#button {
+	float: left;
+}
+
+#game {
+	background-color: #F8F8F8;
+	color: #202020;
+	font-size: 150%;
+	float: right;
+}
+
+#guesses {
+	float: right;
+}
+#images {
+	padding-bottom: 30px;
+	float: left;
+	height: 200px;
+	width: 200px;
+}
+
+/* the google font for the guesses div font-family: 'Inconsolata', ; */
