@@ -4,7 +4,7 @@ var cities = ["Paris", "Moscow", "Dublin", "Tokyo", "Madrid", "London" //, "Lisb
     //"Kiev", "Copenhagen", "Melbourne", "Manila", "Lima", "Santiago"
 ];
 
-var pictures = ['<a href="#"><img src="assets/images/paris.jpeg" height="200" width="200" alt="Paris skyline"/></a>', '<a href="#"><img src="assets/images/moscow.jpg"/></a>', "assets/images/dublin.jpeg", "assets/images/tokyo.jpeg", "assets/images/madrid.jpeg", "assets/images/london.jpeg"];
+var pictures = ['<a href="#"><img src="../assets/images/paris.jpeg" height="200" width="200" alt="Paris skyline"/></a>', '<a href="#"><img src="../assets/images/moscow.jpg"/></a>', "assets/images/dublin.jpeg", "assets/images/tokyo.jpeg", "assets/images/madrid.jpeg", "assets/images/london.jpeg"];
 
 var len = cities.length;
 
